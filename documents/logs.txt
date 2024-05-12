@@ -1,0 +1,34 @@
+Time	Event
+4/22/24
+7:11:08.000 AM	
+Apr 22 07:11:08 relay postfix/qmgr[1954151]: 72F9480002: removed
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:08.000 AM	
+Apr 22 07:11:08 relay postfix/smtp[1975570]: 72F9480002: to=<fukujumaru@key.ocn.ne.jp>, relay=ocn-fc-r-01.ocn.ad.jp[211.16.12.177]:25, delay=3.9, delays=0.1/0/2.2/1.6, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7F03C140000A1)
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 relay postfix/qmgr[1954151]: 72F9480002: from=<tdsfndprd@amadeus.com>, size=12786, nrcpt=1 (queue active)
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 mucmrlp01 opendkim[8790]: 72F9480002: DKIM-Signature field added (s=jl20180314, d=jal.com)
+host = mucmrlp01source = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 relay postfix/cleanup[1976721]: 72F9480002: info: header Mailrelay-Header: v=1; carfid: 000100AM4R2OEN; id: <PNE/JL/C5103C453864/0@tds.amadeus.com>; app: TDS/PNE; phase: PRD; partition: tds_peak7; region: erd; as: obevp628; doctype: NTF;  from unknown[172.24.128.210]; from=<tdsfndprd@amadeus.com> to=<fukujumaru@key.ocn.ne.jp> proto=ESMTP helo=<obevp628>
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 relay postfix/cleanup[1976721]: 72F9480002: info: header FND-Request-ID: <PNE/JL/C5103C453864/0@tds.amadeus.com> from unknown[172.24.128.210]; from=<tdsfndprd@amadeus.com> to=<fukujumaru@key.ocn.ne.jp> proto=ESMTP helo=<obevp628>
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 relay postfix/cleanup[1976721]: 72F9480002: message-id=<PNE/JL/C5103C453864/0@tds.amadeus.com>
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+4/22/24
+7:11:04.000 AM	
+Apr 22 07:11:04 relay postfix/smtpd[1976875]: 72F9480002: client=unknown[172.24.128.210], sasl_method=PLAIN, sasl_username=mrelay-tds
+host = relaysource = /var/log/smtp/mail.logsourcetype = postfix_syslog
+has context menu
